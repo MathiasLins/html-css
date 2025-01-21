@@ -1,0 +1,307 @@
+----------------------- Cores (Modulo 2 - Capitulo 13) -----------------------
+
+Psicologia e representação(1° e 2° aula):
+
+A paleta de cores é importante para diversos aspectos pois elas subconscientemente nos trazem sentimentos diferentes de acordo com a cor
+
+o azul por exemplo, remete à: sabedoria, competencia, confiança, proficionalismo e etc...
+
+
+
+Harmonia das cores (3° aula):
+
+Simplificação de um circulo cromatico:
+
+Cores primarias:
+
+amarelo, vermelho e azul
+
+possuem uma harmonio grosseira, não é tão agradavel aos olhos.
+
+
+Cores Secundarias:
+
+Laranja, violeta e verde
+
+também possuem uma harmonia mais grosseira.
+
+
+Cores terciarisa:
+
+amarelo-esverdeado, amarelo-alaranjado, vermelho-alaranjado, vermelho-arroxeado, azul-arroxeado, azul-esverdeado
+
+são os tons pasteis(pesquisar o que significa)
+
+
+Temperaturas de cores:
+
+existem as cores frias e as cores quentes.
+
+Sempre interessante deixar a paleta de cores para o desenvolvimento em torno de 3 a 5 cores.
+
+
+Cores complementares:
+
+Maiores contrastes, exemplo é usar o fundo violeta com letras amarelas (interessante usar as cores opostas uma á outra no circulo cromatico)
+
+
+Cores Analogas: 
+
+Não possuem um contraste tão grande, mas são perceptiveis: 
+
+exemplo: violeta, pegue as cores dos lados dela
+
+Interessante usar uma mistura entre as duas
+
+Usar cores vizinhas e usar a cor oposta as principais
+
+
+
+Cores Analogas Relacionadas:
+
+Forma um degrade sem contraste, pegue 2 principais que sejam vizinhas, pule uma cor e pegue a proxima cor
+
+exemplo: amarelo, amarelo-alaranjado (prinicipais) e vermelho-alaranjado(secundaria)
+
+o mesmo pode ser utilizado para o outro lado e pegar um verde.
+
+
+Cores Intercaladas:
+
+Pegue uma cor principal, pule uma cor e use a proxima.
+
+
+Cores triadicas:
+
+Escolha uma cor, pule 3 cores, use a proxima e pule novamente 3 cores para escolher a proxima
+
+
+Cores em Quadrado:
+
+mesmo esquema das triadicas, só que ira pular apenas 2 cores.
+
+
+
+Cores Tetradicas:
+
+Pegue uma cor e pegue sua complementar, escolha outra cor e faça o mesmo processo.
+
+
+Monocromia:
+
+Escolha uma cor e mude sua saturação e o brilho.
+
+
+Degrade (6° aula):
+
+no degrade é possivel colocar angulações, estilos e porcentagem no degrade, por exemplo:
+
+background-image: linear-gradient (45deg ou right/left e etc..., cor, cor, cor)
+				      ou
+			      (circle, cor, cor, cor)
+				      ou
+			       (to right, cor 2%, cor 30%, cor 50%)
+
+
+----------------------- Tipografia (Modulo 2 - Capitulo 14) ------------------------
+
+Anatomia dos tipos:
+
+
+Para a criação de novas fontes é usado o x(minusculo) para que seja feita a altura das letras minusculas
+
+para as letras maiusculas, sera pego as maiores letras da linha
+
+entre a linha da altura-x e da altura-das-maiusculas, existe asascendentes que é a sobra entre as letras maisculas e o resto das letras minusculas qeu ultrapassam a altura-x.
+
+e para as sobras abaixdo da altura-x seria a linha descendente, ex:
+
+
+
+
+----------------------------------- Altura das maiusculas 
+Ascendente
+----------------------------------- altura-x
+
+							
+
+----------------------------------- altura-x
+
+----------------------------------- descendente
+
+Somando tudo isso forma o "Corpo".
+
+
+
+serifa(o pezinho que existe em algumas fontes):
+
+
+ajuda na leitura pois a percepção das serifas faz com que você trace uma linha reta imaginarial, além disso não lemos leta por letra e sim a palavra como um todo, por isso que a primeira e ultima PRECISAM estar na ordem certa .
+
+Letras possuem Hastes.
+
+E em algumas palavras existem os Filetes, que unem duas Hastes.
+
+O Arco seria uma "barriguinha pra cima" em algumas letras, por exemplo o n.
+
+Um esporão existe em certas fontes para que as letras não fiquem com a impressão que irão "cair". 
+
+Vertice seria a ponta da letra A e a V como exemplos.
+
+Glifos seriam uma letra, o mesmo que uma caractere
+
+um amontoado de glifos formam Fontes.
+
+
+Categorias de Fontes:
+
+Serifadas - os glifos/caracteres que possuem serifas 
+
+Sans-serif - os glifos/caracteres que não possuem serifas
+
+monoespaçadas - não possuem serifas, a largura de cada caractere é igual
+
+handwriting - tenta simular a escrita a mão de uma pessoa
+
+display ou fonte comemorativa - não possuem as mesmas caracteristas das letras de cimas
+
+
+Shorthand = condensação de estilos da fonte em uma unica linha
+
+Exemplo: 
+
+Font: italic bolder 3em 'Work Sans', sans-serif
+
+1° font-family / 2° font-weight / 3° font-size / 4° font-family
+
+
+
+Baixando fontes externamente:
+
+Baixe a fonte no site DaFont, em seguida no css, faça os seguintes comandos:
+
+@font-face
+	font-family: 'Colocar um nome de sua preferencia' ;
+	scr: url (arquivo da fonte) format(formato do arquivo, url(segundo arquivo) format(formato da fonte)
+
+Tipos de format()
+
+- opentype (otf)
+- truetype (ttf)
+- embedded-opentype
+-truetype-att (Apple Advanced Typography)
+- svg 
+
+
+----------------------- Seletores (Modulo 2 - Capitulo 15) ------------------------
+
+text-align: justify = alinha os dois lados do texto
+
+text-ident: px; = alinha a primeira linha do texto
+
+
+Height = altura
+
+widht = largura
+
+
+display: none; = faz os elementos desaparecerem 
+
+display: block; = faz os elementos aparecerem
+
+
+contente: = conteúdo (usado para adicionar conteúdo na linha em CSS)
+
+
+simbologia em CSS:
+
+# = id
+
+. = class
+
+: = pseudo-classe
+
+:: = pseudo elemento
+
+> = children
+
+
+----------------------- Modelos de Caixas (Modulo 2 - Capitulo 16) ------------------------
+
+
+aninhamento = utilizado para descrever uma caixa dentro da outra
+
+outline = contorno ou traçado (fora do elemento)
+
+
+box-level = sempre se inicia em uma linha nova, ocupa a largura inteira da tela, pula para a proxima linha antes de continuar o conteudo.
+
+Ex: div / h1 - h6 / p / main / header / nav / article / aside / footer / form / video
+
+
+inline-level = vai pular para o lado na mesma linha, não ocupa a largura inteira e continua o conteudo na mesma linha.
+
+Ex: span / a / code / small / strong / em / sup - sub / label / button / input / select
+
+
+display: block; - transforma o elemento como box-level
+
+
+-------- Modelos de tags usadas em HTML --------------
+
+header = cabeçalho
+
+main = conteudo principal 
+
+footer = rodape
+
+nav = links
+
+section = seções
+
+article = artigo
+
+aside = conteudo relativo ao artigo
+
+
+border-image-source = fatia a imagem (usado com bordas personalizadas)
+
+
+:root{} = tudo que definir aqui será definido na pag inteira. Ex:
+
+	--cor0: cor;
+	--cor01: cor;
+	--cor03: cor;
+	--cor04: cor;
+
+	--fonte-padrao: fontes desejadas;
+	--fonte-destaque: fonte desejada;
+	
+
+a paleta de cores será salva no final da lista.
+
+
+transition-duration = efeito de transição 
+
+columns = reparte o conteudo em quantas colunas você desejar 
+
+
+macetes para o iframe (videos)
+
+coloque o video dentro de uma div, essa div sera uma "position: relative" e o video sera uma "position: absolute" os outros valores poderão ser usados em %.
+
+
+------------------------ *! Importante !* --------------------------------------
+
+quando ter muito texto usar a paleta de fundo branco e letra preta, pois ela cansa menos a vista
+
+quando não houver mts textos, pode ser utilizado fundo preto e letra branca
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,259 @@
+1024 bytes = 1 KB
+
+1024 KB = 1 MB
+
+1024 MB = 1 GB
+
+1024 GB = 1 TB
+
+1024 TB = 1 PB
+
+1024 PB = 1 EB
+
+1024 EB = 1 ZB
+
+1024 ZB = 1 YB
+
+Armazenamento = MB - MEGABYTES
+
+Transição = Mb - MEGABITS
+
+
+----------------- Simbolos e Emojis (14° video ) ----------------- 
+
+Verificar o PDF que deixei salvo na pasta "Gustavo Guanabara".
+
+adicionando um emoji: &#x1F596 (pegar o codigo no Codepoints).
+
+
+----------------- Tudo sobre imagens no HTML5 e CSS (15°/ 16°/ 17° video)  ----------------- 
+
+Direito de imagens:
+
+Buscar imagens sem direitos autorais:
+
+Obs: Provavelmente as pessoas tiram ou montam a propria foto com photoshop para que não tenha risco de uso.
+
+Google imagem "ferramentas" > direitos de uso > utilizar o segundo e terceiro filtro.
+
+sites que contem imagens que podem ser utilizadas e modificadas:
+
+Unsplash
+
+Pexels
+
+
+Formato de imagem: 
+
+o ideal seria no max um arquivo de 1500 de largura, se for alem disso vai deixar o site pesado.
+
+GIMP é praticamente um aplicativo de photoshop gratuito.
+
+
+Tag: <img scr="" alt="">
+
+
+----------------- Favicon do site (19° video ) ----------------- 
+
+Head > <link rel="shorcut icon" href="icone desejado" type="image/x-icon">
+
+Utilizar o site Favicon Io para converter uma imagem em icone
+
+
+
+-----------------  Formatação de texto (22°/23°/24° video) -----------------  
+
+Strong = negrito semantico
+
+EM = italico semantico
+
+mark = marcador de texto
+(quando for uma formatação mt especifica a preferencia é fazer no proprio HTML)
+
+del = texto excluido (tem uma linha em cima do texto)
+
+ins = texto inserido (texto sublinhado)
+
+sup = texto sobrescrito (fica pequeno e fica em cima)
+
+sub = texto subscrito (fica pequeno e fica em baixo)
+
+
+Codigo-fonte:
+
+code = deixa o texto em monoespaçado (bom para textos em codigos)
+
+utilizando o cod "pre" antes do "cod" ele arruma automaticamente
+
+
+Citações:
+
+q = coloca aspas
+
+blockquote = para citações maiores do que o normal
+
+
+Abreviações:
+
+abbr = serva para abreviações
+
+
+-----------------  Listas OL e UL (25°/26° video)-----------------  
+
+Listas Ordenadas:
+
+são listas com: numerações e letras (precisa ter uma ordem especifica)
+
+<ol> / <ol type="(a/A/1)">
+
+Listas não Ordenadas:
+
+Listas com: disc, circle, square (listas que não precisam ter uma ordem)
+
+<ul> / <ul type="">
+
+
+Listas Mistas:
+
+Caso você divida a lista e deseje que a numeração continue em sequencia, faça o seguinte:
+
+	<ol type="a">
+	|	<li>Cliper</li>
+	|	<li>Visual Basic</li>
+	|	<li>Fortran</li>
+	</ol>
+
+	<ol type="a" star="5"(a lista lê como alfa numerica, então se você colocar letras, ela não será lida>
+	|	<li></li>
+	|	<li></li>
+	|	<li></li>
+	</ol>
+
+Para fazer uma mistura coloque as UL dentro das OL ou vice e versa
+
+Listas de Definição:
+										
+
+<dl>
+	<dt>Termos</dt>
+	<dd>Descrição</dd>
+</dl>
+	
+
+-----------------  Links e Âncoras(27°/28°/29° video) -----------------  
+
+Links externos:
+
+<a href="" target="_blank" rel="external"></a>
+
+Faz com que o link acessado seja aberto em uma aba nova
+
+Links internos:
+
+<a href="" rel="next">usado para acessar a proxima pag</a>
+
+<a href="" rel="prev">usado para voltar para a pag anterior</a>
+
+<a href="" target="_blank" rel="nofollow">faz com que o mecanismo de busca não dâ aval(não siga) esse link</a>
+
+
+<a href="" rel="next" target="_self">vai pra prox pag abrindo na aba atual</a>
+
+
+Links para dowloads:
+
+
+<a href="" download="nome do arquivo" type="application/pdf"></a>
+
+funcionara dependendo do navegador, se o link possui diretamente o caminho pro PDF, ele apenas o abre em uma aba diferente.
+
+Se for um arquivo zip, ele faz a função de download
+
+
+-----------------  Imagens adaptaveis (31°/32°) -----------------  
+
+<picture> = serve como um complmente para o <source media>
+
+<source media="(max-widht: tamanho da imagem em pixels)" srcset="foto desejada" type="image/png"> 
+
+quando o navegador atinge o tamanho de pixels definido, ele troca para a imagem que está especificada em " srcset="" "
+
+**! Lembrar de que a ordem de tamanho precisa ser inversa, se a imagem 2 for menor que a imagem 1, o source media dela tera que ser digitado acima do source media da 1 !**
+ex:
+
+<picture>
+
+<source media="(max-widht: 300px)" srcset="imagem3" type="image/png"
+<source media="(max-widht: 700px)" srcset="imagem2" type="image/png"
+<source media="(max-widht: 1000px)" srcset="imagem1" type="image/png"
+
+<img scr="" alt="">
+
+</picture>
+
+
+-----------------  Audios e videos (33°/34°/35°36°/37°) -----------------  
+
+Audio:
+
+<audio scr="arquivo do audio" controls autoplay></audio>
+
+Sempre verificar o tipo de arquivo que é compativel com o navegador.
+Formatos de audio: MP3, WAV, OGG
+
+para aplicar o msm audio com multiplos tipos de arquivo:
+
+<audio>
+|
+|	<source src="ArquivoBaixado.mp3" type="audio/mpeg"
+|	<source src="ArquivoBaixado.ogg" type="audio/ogg"
+|	<source src="ArquivoBaixado.wav" type="audio/wav"
+|
+</audio>
+
+<audio proload="auto/metadata/none" autoplay controls loop(repete o audio assim que ele termina)>
+
+metadata = ele mostra as informações do arquivo
+
+auto = faz com que o site só carregue completamente assim que o audio carregar tbm
+
+Video:
+
+formato: MP4, M4V, WEBM e OGV
+
+<video src="arquivo desejado" width="500" controls></video>
+
+o melhor vai ser colocar todos os formatos, pois o navegador pode não aceitar todos os formatos:
+
+<video widht="tamanho do video" poster="tumb criada por você" controls>
+|
+|	<source scr="" type="video/mp4"
+|	<source scr="" type="video/m4v ou mp4"
+|	<source scr="" type="video/webm"
+|	<source scr="" type="video/ogg"
+|
+</video>
+
+Videos externos:
+
+Para atribuir videos do Youtube, pesquise pelo video > compartilhar > incorporar> copie e cole o cod gerado no HTML5
+
+Sempre utilizar ao max videos/audios/imagens e etc feitos por você ou pelo seu cliente
+
+a opção mais economica seria subir o site pelo youtube ou plataforma e fazer a ponte do link entre esses dois
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
