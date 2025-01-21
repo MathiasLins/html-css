@@ -288,8 +288,30 @@ columns = reparte o conteudo em quantas colunas você desejar
 
 macetes para o iframe (videos)
 
-coloque o video dentro de uma div, essa div sera uma "position: relative" e o video sera uma "position: absolute" os outros valores poderão ser usados em %.
+coloque o video dentro de uma div, essa div sera uma "position: relative" e o video sera uma "position: absolute" 
 
+ex:
+
+
+div-video
+
+vídeo
+
+CSS:
+
+#div-video{
+	position:relative;
+	width: 100%;
+	height: 520px;
+
+}
+
+#video{
+	position: absolute
+	widht: 60%;
+	height: 480px;
+
+}
 
 ------------------------ *! Importante !* --------------------------------------
 
