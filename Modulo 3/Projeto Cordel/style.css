@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+
+#cabecalho{
+    background-color: black;
+    color: white;
+    height: 180px;
+    text-align: center;
+    padding-top: 50px;
+}
+
+#cabecalho>h1{
+    font-family: "Passion One", serif;
+    font-size: 91px;
+}
+
+#cabecalho>h1:hover,a:hover{
+    text-decoration: underline;
+}
+
+#cabecalho>h2{
+    color: white;
+    font-size: 21px;
+}
+
+a{
+    text-decoration: none;
+    font-weight: bolder;
+    color: white;
+}
