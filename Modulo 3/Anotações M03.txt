@@ -1,0 +1,12 @@
+Para a criação de um tabela simples, será usado os seguintes elementos
+
+<tr>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+
+a junção desses dois formam uma linha da tabela, para mais linhas será necessário replicar quantas vezes preferir
+
+vertical-align = tag usada para alinhar o texto verticalmente 
+
