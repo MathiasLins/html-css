@@ -1,20 +1,40 @@
 *{
     margin: 0;
+    margin: auto;
+    min-width: 300px;
+    max-width: 100%;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+
+@font-face {
+    font-family: 'fontepoemas'; 
+    src: url('fontes/Sriracha-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'fontetitulo';
+    src: url('fontes/Passion_One/PassionOne-Black.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*-------------------------------------*/
+
 
 #cabecalho{
     background-color: black;
     color: white;
-    height: 180px;
+    height: 20%;
     text-align: center;
     padding-top: 50px;
+    padding-bottom: 20px;
 }
 
 #cabecalho>h1{
-    font-family: "Passion One", serif;
-    font-size: 91px;
+    font-family: "fontetitulo", serif;
+    font-size: 10vw;
 }
 
 #cabecalho>h1:hover,a:hover{
@@ -23,11 +43,80 @@
 
 #cabecalho>h2{
     color: white;
-    font-size: 21px;
+    font-size: 3vw;
+    font-family: "fontetitulo", serif;
+
 }
 
 a{
     text-decoration: none;
-    font-weight: bolder;
     color: white;
+}
+
+/*-------------------------------------*/
+
+/*---------- Conteudo Principal ------------*/
+
+.texto{
+    width: 50%;
+    padding-top: 50px;
+    margin-left: 35px;
+    
+}
+
+.poemas{
+    font-size: 4vw;
+    font-weight: 20px;
+    padding-bottom: 100px;
+    font-family: 'fontepoemas', 'Sans-serif';
+}
+
+#paralax{
+    padding-top: 50px;
+    background-image: url(imagens/imagens/background001.jpg);
+    height: 65vw; 
+    background-attachment: fixed; 
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 50px;
+}
+
+#poema2{
+    font-size: 4vw;
+    font-weight: 20px;
+    height: auto;
+    background-color: rgba(0, 0, 0, 0.705);
+    color: white;
+    width: 50%;
+    padding-top: 15px;
+    padding-left: 30px;
+    margin-left: 35px;
+    font-family: 'fontepoemas', 'Sans-serif';
+
+}
+
+#paralax2{
+    padding-top: 50px;
+    background-image: url(imagens/imagens/background002.jpg);
+    height: 55vw;
+    background-attachment: fixed;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 50px;
+}
+
+footer{
+    height: 35px;
+    color: white;
+    background-color: black;
+    line-height: 35px;
+    text-align: center;
+    font-size: 2vw;
+}
+
+footer > a{
+    text-decoration: none;
+    font-weight: bolder;
 }
