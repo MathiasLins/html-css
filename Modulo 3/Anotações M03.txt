@@ -10,3 +10,8 @@ a junção desses dois formam uma linha da tabela, para mais linhas será necess
 
 vertical-align = tag usada para alinhar o texto verticalmente 
 
+Caption = legenda na tabela
+
+<th scoop="col"> - 
+
+subclasse: body > tr:nth-child(2n) = vai pintar a linha da cor selecionada a cada 2 linhas
