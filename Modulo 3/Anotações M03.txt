@@ -15,3 +15,21 @@ Caption = legenda na tabela
 <th scoop="col"> - 
 
 subclasse: body > tr:nth-child(2n) = vai pintar a linha da cor selecionada a cada 2 linhas
+
+
+Cabeçalho fixo em tabelas Grandes:
+
+colocar "position: relative" na modificação da tabela no CSS3;
+
+thead(cabeçalho da tabela) > tr(linha) > th(conteudo)
+
+position: sticky;
+top: 0;
+background-color: (cor desejada);
+
+
+Para realizar a mesclagem de celula será necessario usar o 
+
+" colspan="2" " na tag TD da tabela (para mesclar linhas)
+
+" rowspan="3" " na tag TD da tabela (para mesclar colunas)
