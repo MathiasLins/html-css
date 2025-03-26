@@ -9,18 +9,47 @@
 
         <style>
 
-            table{
+            #table1{
                 padding: 10px;
+                border-collapse: collapse;
+                width: 250px;
+                margin-top: 50px;
+                margin-bottom: 50px;
+
             }
 
-            td{
+            #table1 td{
                 padding: 10px;
                 border: 1px solid black;
                 text-align: center;
-                ;
+
             }
 
+            #table2 {
+                width: 350px;
+                border-collapse: collapse;
+
+            }
           
+            #table2 td{
+                border: 1px solid black;
+                text-align: center;
+                padding: 10px;
+            }
+
+            #table3{
+                width: 500px;
+                margin-top: 50px;
+                margin-bottom: 50px;
+                border-collapse: collapse;
+                text-align: center;
+
+            }
+
+            #table3 td{
+                border: 1px solid black;
+                padding: 10px;
+            }
             
         </style>
 
@@ -28,7 +57,7 @@
 
     <body>
 
-        <table id="table">
+        <table id="table1">
 
             <tr>
 
@@ -70,10 +99,119 @@
 
             </tr>
 
-            
-
         </table>
+
+
+        <table id="table2">
+
+            <tr>
+
+                <td colspan="4">A</td>
+                <td rowspan="4">B</td>
+
+            </tr>
+
+            <tr>
+
+                <td rowspan="4">C</td>
+                <td>D</td>
+                <td>E</td>
+                <td>F</td>
+
+            </tr>
+
+            <tr>
+
+                <td>G</td>
+                <td>H</td>
+                <td>I</td>
+
+            </tr>
+
+            <tr>
+
+                <td>J</td>
+                <td>L</td>
+                <td>M</td>
+
+            </tr>
+
+            <tr>
+
+                <td colspan="4">N</td>
+
+            </tr>
+            
+        </table>
+
+        <table id="table3">
+
+            <tr>
+
+                <td>Grupo</td>
+                <td colspan="1">Nomes</td>
+                <td colspan="3">Filmes</td>
+            
+            </tr>
+
+            <tr>
+            
+                <td rowspan="3">Mulheres</td>
+                <td>Ana Maria Santos</td>
+                <td>Alien</td>
+                <td>Rambo</td>
+                <td>Batman</td>
+            
+            </tr>
+
+            <tr>
+            
+                <td>Beatriz</td>
+                <td>Hulk</td>
+                <td>Inception</td>
+                <td>Batman</td>
+            
+            </tr>
+
+            <tr>
+            
+                <td>Claudia Melo</td>
+                <td>Oblivion</td>
+                <td>Matrix</td>
+                <td>Big Hero</td>
+            
+            </tr>
+
+            <tr>
+            
+                <td rowspan="3">Homens</td>
+                <td>Bruno Mendonça</td>
+                <td>Intocáveis</td>
+                <td>Amnésia</td>
+                <td>Gladiador</td>
+            
+            </tr>
+
+            <tr>
+            
+                <td>Daniel Lourenço</td>
+                <td>Wall-E</td>
+                <td>Oldboy</td>
+                <td>Dangai</td>
+            
+            </tr>
+
+            <tr>
+            
+                <td>Fabiano Mota</td>
+                <td>Star Wars 5</td>
+                <td>Taxi Driver</td>
+                <td>Toy Story</td>
+            
+            </tr>
         
+        </table>
+
     </body>
 
 </html>
