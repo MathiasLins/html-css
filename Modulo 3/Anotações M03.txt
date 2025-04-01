@@ -33,3 +33,26 @@ Para realizar a mesclagem de celula será necessario usar o
 " colspan="2" " na tag TD da tabela (para mesclar linhas)
 
 " rowspan="3" " na tag TD da tabela (para mesclar colunas)
+
+
+scope="col" - scope de coluna 
+
+scope="colgroup" - conjunto de colunas
+
+scope="rowgroup" - conjunto de linha
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
