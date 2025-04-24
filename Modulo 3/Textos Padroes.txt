@@ -1,0 +1,19 @@
+Textos padrões 
+
+
+Modelo:
+
+⚠ATENÇÃO⚠ 
+HUB: Curitiba
+UNIDADE:  Todas unidades
+PROBLEMA:  Latência alta no Tasy, verificando VPN.
+INICIO: 15:15
+STATUS: Usuarios reportando lentidão no Tasy, realizando abertura de chamado na algar.
+
+
+Liberação de rede:
+
+
+Boa noite,
+
+Solicito a liberação da rede "nome da rede" no MAC:"MAC da maquina" - "maquina solicitada".

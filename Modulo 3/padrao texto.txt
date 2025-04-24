@@ -1,0 +1,19 @@
+Painéis:
+
+Painel Indic 192.168.6.145 - Ok
+Totem indic 192.168.6.253 - Ok
+Painel Weknow Pa 192.164.0.140 - Ok
+Painel Pa 192.164.0.139 - Ok
+Totem Pa 192.164.7.31 - Ok
+
+
+
+Painel A Recepção - 192.164.6.158 -
+
+Totem Recepção - 192.164.6.56 - 
+
+Painel B (chamada de pacientes 1° andar) - 192.164.4.165 - 
+
+Painel C (video todos os andares) - 192.164.4.143 - 
+
+Painel D (chamada de clientes 2° andar) - 192.164.6.234 - 
